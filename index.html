@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CONVERSATION</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: linear-gradient(to bottom, #ffffff, #eeeeee, #dddddd);
+      font-family: 'Courier New', monospace;
+      color: #111;
+      overflow-y: scroll;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 100px 20px;
+    }
+
+    .line {
+      margin: 20px 0;
+      opacity: 1;
+      transition: opacity 0.2s;
+    }
+
+    /* Fading effect based on scroll position */
+    body::after {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      background: linear-gradient(to bottom, rgba(255,255,255,0) 50%, rgba(255,255,255,0.3) 70%, rgba(255,255,255,0.7) 90%);
+      z-index: 10;
+    }
+  </style>
+</head>
+<body>
+  <!-- Well, don't know where he came from at all... I wonder how long I'll have to wait. -->
+
+  <div class="container">
+    <div class="line">"So... El Racc, huh? Are you coming here to be my savior?"</div>
+    <div class="line">"No? You can't do that? Oh well. It was worth a shot."</div>
+    <div class="line">"You want to whisper something? Okay, hold on."</div>
+    <div class="line">"..."</div>
+    <div class="line">"..."</div>
+    <div class="line">"...Uhuh."</div>
+    <div class="line">"That's... Good to know. Anything else?"</div>
+    <div class="line">"...What?"</div>
+    <div class="line">"What do you mean I missed something?"</div>
+    <div class="line">"They got married now?"</div>
+    <div class="line">"You know, if I wanted to see news about my friends, I would go to see it myself. There's a reason why I'm not constantly there all the time."</div>
+    <div class="line">"But hey, I appreciate the effort."</div>
+    <div class="line">"Hey, I have a question."</div>
+    <div class="line">"Could you send a message along? Just a letter. Here, I have this journal. I'll rip a piece of paper out."</div>
+    <div class="line">"..."</div>
+    <div class="line">"..."</div>
+    <div class="line">"...Done."</div>
+    <div class="line">"Send it to anyone in the party please. The right person will find it."</div>
+    <div class="line">"What's that?"</div>
+    <div class="line">"Jeez, that long? That's alright. There's not a time limit on it anyways. Make sure they read it before it dissolves or something."</div>
+  </div>
+</body>
+</html>
